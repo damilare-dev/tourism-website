@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    color: black;
+    background-color: rgba(139, 69, 19, 0.836) ;
+    overflow: hidden;
+    padding: 0 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav img{
+    height: 70px;
+    width: 100px;
+}
+
+nav div{
+    float: left;
+    padding-top: 10px;
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 30 20px;
+    font-size: 20px;
+}
+
+
+nav a:hover {
+    border-bottom: 3px solid black;
+}
+
+@media(max-width: 500px){
+    nav ul li {
+        float: right;
+        width: 100%;
+    }
+
+    nav{
+        position: static;
+    }
+}

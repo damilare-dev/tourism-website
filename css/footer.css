@@ -1,0 +1,206 @@
+
+#bgfoot{
+    background-image: url("/images/bb2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    background-position: center;
+    position: relative;
+    clear: both;
+    width: 100%;
+    padding:  0 200px ;
+
+}
+
+#bgfoot a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding-left: 60px; */
+}
+
+
+i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#face i{
+    color: blue ;
+}
+
+#twit i{
+    color: blue;
+}
+
+#ig{
+    color: red;
+}
+
+
+
+#face{
+    float: left;
+    background-color: rgb(24,119,242);
+    padding: 30px 10px;
+    overflow: hidden;
+    width: 33%;
+     height: 100px;
+}
+
+#twit{
+    background-color: rgb(29, 169, 242);
+    padding: 30px 10px;
+    float: left;
+    overflow: hidden;
+    height: 100px;
+    width: 33%;
+}
+
+
+#ig{
+    background-color:rgb(228, 64, 95);
+    padding: 30px 10px;
+    float: left;
+    overflow: hidden;
+    height: 100px;
+    width: 33%;
+}
+
+#footer{
+    background-color: rgba(39, 35, 35, 0.904);
+    overflow: hidden;
+    color: white;
+}
+
+footer img{
+    height: 90px;
+    margin-top: 20px;
+    width: 48%;
+}
+
+#logo-foot{
+    clear: both;
+    float: left;
+    width: 20%;
+    margin-top: 5%;
+    font-size: 20px;
+    padding: 20px 40px
+}
+
+footer h3{
+    border-bottom: 2px solid  rgba(139, 69, 19, 0.644);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul a{
+    text-decoration: none;
+    display: inline-block;
+    color: white
+}
+
+ul a:hover{
+    /* border-bottom: 1px solid black; */
+    color: purple;
+}
+
+
+ul i{
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 2px;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+.foot{
+    float: left;
+    padding:150px 100px;
+}
+
+@media(max-width: 500px){
+
+    #bgfoot{
+        height: 300px;
+    }
+
+    #face{
+        width: 300%;
+        float: left;
+    }
+
+    #twit{
+        width: 300%;
+        float: left;
+    }
+
+    #ig{
+        width: 300%;
+        float: left;
+    }
+
+   footer{
+        text-align: center;
+        padding: 0;
+    }
+
+    #logo-foot img{
+        width: 100px;
+        margin-left: 00px;
+    }
+
+    #logo-foot{
+        margin-left: 150px;
+        float: none;
+    }
+
+    .foot ul li {
+        margin-right: 120px;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+    }
+
+    ul h3{
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .foot{
+        padding: 100px;
+        margin: 0;
+        text-align: center;
+        float: right;
+    }
+    
+}
+
+@media(max-width:450px){
+
+    #face{
+        width: 250px;
+        padding: 5px 5px;
+    }
+
+    #twit{
+        width: 250px;
+        padding: 5px 5px;
+    }
+
+    
+    #ig{
+        width: 250px;
+        padding: 5px 5px;
+    }
+
+    #bgfoot i{
+        font-size: 20px;
+    }
+}
